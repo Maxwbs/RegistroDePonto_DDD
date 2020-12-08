@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Serviços", "0 - Serviços", "{A75B65F7-4E49-42A3-A706-61C487929556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentação", "1 - Apresentação", "{11CCEC25-5B5E-4FCD-A544-E3208F052458}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Aplicação", "2 - Aplicação", "{D16E0295-9949-435B-BB6D-AE9CF037E142}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dominio", "3 - Dominio", "{E36A4101-F9B9-415F-BD32-F702A08EDD3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - InfraEstrutura", "4 - InfraEstrutura", "{5E4E3A55-098F-48F3-9B8E-A1EF1934DB7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- Entidades", "5- Entidades", "{4A51E3DF-2A63-4847-A4C6-789F9E44C757}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - BancoDeDados", "6 - BancoDeDados", "{AEE08A02-F4B6-4D0C-9F0B-0E67321DFCFA}"
+	ProjectSection(SolutionItems) = preProject
+		BancoDeDados\0 -Banco De Dados\CLI_REGISTRODEPONTO.bak = BancoDeDados\0 -Banco De Dados\CLI_REGISTRODEPONTO.bak
+		BancoDeDados\1 - Script de Criação\Script_Create.sql = BancoDeDados\1 - Script de Criação\Script_Create.sql
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{22C89E81-B719-45F5-A774-812130028C49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "Infra\Infra.csproj", "{81AF666D-439E-42E2-AD93-5CCACF6EA76D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{A1575BD6-7816-4C16-A255-AC9DC9FF99BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Applications", "Applications\Applications.csproj", "{8AB31D91-EEB2-4A8F-9044-E0C60DA2E0BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiRegistroDePonto", "WebApiRegistroDePonto\WebApiRegistroDePonto.csproj", "{DEAFD634-40ED-4FB6-9683-4CE206C47A46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebRegistroDePonto.MVC", "WebRegistroDePonto.MVC\WebRegistroDePonto.MVC.csproj", "{4EB0101C-524C-4145-AEA0-490495FCDEB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22C89E81-B719-45F5-A774-812130028C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C89E81-B719-45F5-A774-812130028C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C89E81-B719-45F5-A774-812130028C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C89E81-B719-45F5-A774-812130028C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AF666D-439E-42E2-AD93-5CCACF6EA76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AF666D-439E-42E2-AD93-5CCACF6EA76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AF666D-439E-42E2-AD93-5CCACF6EA76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AF666D-439E-42E2-AD93-5CCACF6EA76D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1575BD6-7816-4C16-A255-AC9DC9FF99BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1575BD6-7816-4C16-A255-AC9DC9FF99BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1575BD6-7816-4C16-A255-AC9DC9FF99BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1575BD6-7816-4C16-A255-AC9DC9FF99BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB31D91-EEB2-4A8F-9044-E0C60DA2E0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB31D91-EEB2-4A8F-9044-E0C60DA2E0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB31D91-EEB2-4A8F-9044-E0C60DA2E0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB31D91-EEB2-4A8F-9044-E0C60DA2E0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEAFD634-40ED-4FB6-9683-4CE206C47A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAFD634-40ED-4FB6-9683-4CE206C47A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAFD634-40ED-4FB6-9683-4CE206C47A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAFD634-40ED-4FB6-9683-4CE206C47A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB0101C-524C-4145-AEA0-490495FCDEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB0101C-524C-4145-AEA0-490495FCDEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB0101C-524C-4145-AEA0-490495FCDEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB0101C-524C-4145-AEA0-490495FCDEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22C89E81-B719-45F5-A774-812130028C49} = {4A51E3DF-2A63-4847-A4C6-789F9E44C757}
+		{81AF666D-439E-42E2-AD93-5CCACF6EA76D} = {5E4E3A55-098F-48F3-9B8E-A1EF1934DB7A}
+		{A1575BD6-7816-4C16-A255-AC9DC9FF99BD} = {E36A4101-F9B9-415F-BD32-F702A08EDD3B}
+		{8AB31D91-EEB2-4A8F-9044-E0C60DA2E0BB} = {D16E0295-9949-435B-BB6D-AE9CF037E142}
+		{DEAFD634-40ED-4FB6-9683-4CE206C47A46} = {A75B65F7-4E49-42A3-A706-61C487929556}
+		{4EB0101C-524C-4145-AEA0-490495FCDEB3} = {11CCEC25-5B5E-4FCD-A544-E3208F052458}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DFAE7B2-5CD3-4C51-BC18-BEDD103AFDDA}
+	EndGlobalSection
+EndGlobal

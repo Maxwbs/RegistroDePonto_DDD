@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Applications.Dtos.DtoRegistroDePonto>
+
+@{
+    ViewData["Title"] = "";
+}
+
+<p>
+    <a asp-action="Create">Cadastro do registro de ponto</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cpf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataDoRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoDeRegistro)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cpf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataDoRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoDeRegistro)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Detalhe", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
